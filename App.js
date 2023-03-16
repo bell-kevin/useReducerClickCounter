@@ -4,9 +4,9 @@ import { Text, Button, StatusBar, StyleSheet, View } from "react-native";
 const reducer = (state, action) => {
   switch (action.type) {
     case "increment":
-      return { count: state.count + 1 };
+      return { count: state.count + action.payload };
     case "decrement":
-      return { count: state.count - 1 };
+      return { count: state.count - action.payload };
     case "reset":
       return { count: 0 };
     default:
@@ -23,14 +23,14 @@ function Reducer() {
       <Text style={styles.textNumber}>Number: {state.count}</Text>
       <View style={styles.buttonContainer}>
         <Button
-          title="ADD 1"
-          onPress={() => dispatch({ type: "increment" })}
+          title="ADD"
+          onPress={() => dispatch({ type: "increment", payload: 1 })}
           color="green"
           style={styles.button}
         />
         <Button
-          title="REMOVE 1"
-          onPress={() => dispatch({ type: "decrement" })}
+          title="REMOVE"
+          onPress={() => dispatch({ type: "decrement", payload: 1 })}
           color="red"
           style={styles.button}
         />
