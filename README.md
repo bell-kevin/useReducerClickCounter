@@ -18,6 +18,10 @@ Take a screenshot of the screen after pressing the Add button a few times (as ab
 
 Submission: Zip together the root folder and the 2 screenshots, and submit the single zipped folder.
 
+![p](https://github.com/bell-kevin/useReducerClickCounter/blob/main/screenshots/1.PNG)
+
+![p](https://github.com/bell-kevin/useReducerClickCounter/blob/main/screenshots/2.PNG)
+
 ## How to:
 
 Create one app. for both Android and iOS (Apple) using one computer alorithm for both apps. You'll need Visual Studio Code and Android Studio to get started:
