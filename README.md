@@ -6,7 +6,7 @@ The useReducer hook is very helpful for exposing the state of multiple pieces of
 
 If you were on a shopping site, ordering an item, you need to specify the quantity of that item you want to purchase. That uses a click counter, where one button adds to the count and another button decreases that amount. In this project, you will use 3 buttons, one to increment, one to decrement, and one to reset the counter. The results look like this:
 
-clickReducer.PNG
+![clickReducer.PNG](https://github.com/bell-kevin/useReducerClickCounter/blob/main/clickReducer.PNG)
 
 The background cannot be white; the 3 buttons must each have a different color -- the colors are your choice, make sure the text is clearly visible (no black text on dark blue background, for example). The number displays the current count.
 
