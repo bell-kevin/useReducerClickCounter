@@ -1,6 +1,6 @@
 # Click Counter with useReducer Hook from React Native
 
-Before you start this project, make sure you have gone through the Introduction to UseReducer page (https://piped.hostux.net/watch?v=8C6NP1Qsi9I). You will create a project similar to the one in that introduction.
+Before you start this project, make sure you have gone through the Introduction to UseReducer page (https://inv.nadeko.net/watch?v=kK_Wqx3RnHk). You will create a project similar to the one in that introduction.
 
 The useReducer hook is very helpful for exposing the state of multiple pieces of data, or where the state is determined with dependencies on other pieces of state. That complexity makes it hard to find a project that practices the concept fully. In this project, you will use the useReducer hook for a single piece of state, a counter, to convert the React project in the Introduction video to a React Native project.
 
